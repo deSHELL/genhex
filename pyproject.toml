@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools @ git+https://github.com/pypa/setuptools.git@main"]
+
+[project]
+name = "genhex_devamidhun"
+version = "0.0.1"
+authors = [
+  { name="Deva Midhun", email="dev@deva.is-cool.dev" },
+]
+description = "Generates random hex text for random things 😉"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/deSHELL/genhex"
+"Bug Tracker" = "https://github.com/deSHELL/genhex/issues"
